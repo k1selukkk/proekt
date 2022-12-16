@@ -7,11 +7,12 @@
 	font-family: 'Noto Sans', sans-serif;
 	font-size: 16px;
 	line-height: 1.4;
-	color: #000;
+	color: #fff;
 	min-width: 320px;
 	overflow-x: hidden;
 	height: auto;
   margin:0;
+  background-color: #171717;
 }
 
 .container {
@@ -24,7 +25,7 @@
 }
 
 .navbar {
-  background-color: #fff;
+  background-color: #171717;
   border: 0;
   font-size: 14px;
   line-height: 1.42857143 !important;
@@ -62,11 +63,11 @@
   align-items: center;
   white-space: nowrap;
   padding: 0 15px;
-  height: 70px;
+  height: 30px;
   line-height: 70px;
   display: inline-block;
   font-size: 28px;
-  color: #000;
+  color: #fff;
   font-family: 'Noto Sans', sans-serif;
 }
 
@@ -131,7 +132,7 @@
 }
 
 .top10:hover {
-  box-shadow: 0 0px 36px #a7c957;
+  box-shadow: 0 0px 36px hsl(76, 46%, 91%);
   transition: all 0.3s ease-in-out;
 }
 
@@ -253,7 +254,7 @@
 
 .content h1 {
   font-size: 30px;
-  color: #000;
+  color: #fff;
   font-family: 'Noto Sans', sans-serif;
   margin-top: 2%;
   display: flex;
@@ -290,11 +291,15 @@
 .rests > * > p {
   margin: 16px 5px 0 5px;
   font-size: 24px;
-  color: #000;
+  color: #fff;
   font-family: 'Noto Sans', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   box-shadow: 0 0px 8px #cecece;
   border-radius: 20px;
+}
+.search {
+  background-color: #171717;
+  border-color: #fff;
 }
